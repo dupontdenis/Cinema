@@ -16,6 +16,7 @@ const tarifs = seance.reduce((a, { tarif }) => {
   return a;
 }, {});
 
+//
 for (let [tarif, nb] of Object.entries(tarifs)) {
   document
     .querySelector("h1")

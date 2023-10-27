@@ -13,8 +13,8 @@ p {
 ul {
   display: grid;
   place-content: center;
-  grid-template-columns: repeat(10, 1cm);
-  grid-template-rows: repeat(10, 1cm);
+  grid-template-columns: repeat(10, 0.5cm);
+  grid-template-rows: repeat(10, 0.5cm);
   grid-gap: 5px;
 }
 
